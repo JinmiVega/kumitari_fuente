@@ -1,0 +1,25 @@
+body{
+background:#F0EFED;
+font-family:'Quicksand', arial;
+}
+.txt-error{
+  color:#E94243;
+  font-size:15px;
+  a{
+    color:#444;
+    text-decoration:underline;
+    font-weight:600
+  }
+}
+#title-error{
+  margin-top:20px;
+  font-size:34px;
+  font-weight:600;
+  font-family:'Quicksand', arial;
+}
+#content-error{
+	width: 660px;
+	max-width: 100%;
+	margin: 0 auto;
+  margin-top:10%
+}

@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en" data-textdirection="ltr" class="loading">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Stack admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, stack admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Lengua carga registro</title>
+    <link rel="apple-touch-icon" href="../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <!-- BEGIN VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/fonts/feather/style.min.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/fonts/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/extensions/pace.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/extensions/sweetalert.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/tables/datatable/dataTables.bootstrap4.min.css">
+    <!-- END VENDOR CSS-->
+    <!-- BEGIN STACK CSS-->
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/app.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/colors.css">
+    <!-- END STACK CSS-->
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/core/menu/menu-types/vertical-overlay-menu.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/fonts/simple-line-icons/style.min.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/fonts/font-awesome/css/font-awesome.min.css">
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/base-natigu.css">
+  </head>
+  <body data-open="click" data-menu="vertical-menu" data-col="2-columns" class="vertical-layout vertical-menu 2-columns  fixed-navbar">
+
+    <!-- navbar-fixed-top-->
+    <nav class="header-navbar navbar navbar-with-menu navbar-fixed-top navbar-semi-dark navbar-shadow">
+      <div class="navbar-wrapper">
+        <div class="navbar-header">
+          <ul class="nav navbar-nav">
+            <li class="nav-item mobile-menu hidden-md-up float-xs-left"><a href="#" class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="ft-menu font-large-1"></i></a></li>
+            <li class="nav-item"><a href="index.html" class="navbar-brand"><img id="logo-k" alt="stack admin logo" src="${pageContext.request.contextPath}/app-assets/images/logo/stack-logo-light.png" class="brand-logo">
+                <h2 class="brand-text">Natigua</h2></a></li>
+            <li class="nav-item hidden-md-up float-xs-right"><a data-toggle="collapse" data-target="#navbar-mobile" class="nav-link open-navbar-container"><i class="fa fa-ellipsis-v"></i></a></li>
+          </ul>
+        </div>
+        <div class="navbar-container content container-fluid">
+          <div id="navbar-mobile" class="collapse navbar-toggleable-sm">
+            <ul class="nav navbar-nav">
+              <li class="nav-item hidden-sm-down"><a href="#" class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="ft-menu"></i></a></li>
+
+              <li class="nav-item hidden-sm-down"><a href="#" class="nav-link nav-link-expand"><i class="ficon ft-maximize"></i></a></li>
+
+<!--               <li class="nav-item nav-search"><a href="#" class="nav-link nav-link-search"><i class="ficon ft-search"></i></a>
+                <div class="search-input">
+                  <input type="text" placeholder="Explore Stack..." class="input">
+                </div>
+              </li> -->
+            </ul>
+            <ul class="nav navbar-nav float-xs-right">
+<!--               <li class="dropdown dropdown-language nav-item"><a id="dropdown-flag" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link"><i class="flag-icon flag-icon-gb"></i><span class="selected-language"></span></a>
+                <div aria-labelledby="dropdown-flag" class="dropdown-menu"><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-gb"></i> English</a><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-fr"></i> French</a><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-cn"></i> Chinese</a><a href="#" class="dropdown-item"><i class="flag-icon flag-icon-de"></i> German</a></div>
+              </li> -->
+<!--               <li class="dropdown dropdown-notification nav-item"><a href="#" data-toggle="dropdown" class="nav-link nav-link-label"><i class="ficon ft-bell"></i><span class="tag tag-pill tag-default tag-danger tag-default tag-up">5</span></a>
+                <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
+                  <li class="dropdown-menu-header">
+                    <h6 class="dropdown-header m-0"><span class="grey darken-2">Notifications</span><span class="notification-tag tag tag-default tag-danger float-xs-right m-0">5 New</span></h6>
+                  </li>
+                  <li class="list-group scrollable-container"><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle"><i class="ft-plus-square icon-bg-circle bg-cyan"></i></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">You have new order!</h6>
+                          <p class="notification-text font-small-3 text-muted">Lorem ipsum dolor sit amet, consectetuer elit.</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">30 minutes ago</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle"><i class="ft-download-cloud icon-bg-circle bg-red bg-darken-1"></i></div>
+                        <div class="media-body">
+                          <h6 class="media-heading red darken-1">99% Server load</h6>
+                          <p class="notification-text font-small-3 text-muted">Aliquam tincidunt mauris eu risus.</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Five hour ago</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle"><i class="ft-alert-triangle icon-bg-circle bg-yellow bg-darken-3"></i></div>
+                        <div class="media-body">
+                          <h6 class="media-heading yellow darken-3">Warning notifixation</h6>
+                          <p class="notification-text font-small-3 text-muted">Vestibulum auctor dapibus neque.</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Today</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle"><i class="ft-check-circle icon-bg-circle bg-cyan"></i></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Complete the task</h6><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Last week</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left valign-middle"><i class="ft-file icon-bg-circle bg-teal"></i></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Generate monthly report</h6><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Last month</time></small>
+                        </div>
+                      </div></a></li>
+                  <li class="dropdown-menu-footer"><a href="javascript:void(0)" class="dropdown-item text-muted text-xs-center">Read all notifications</a></li>
+                </ul>
+              </li>
+              <li class="dropdown dropdown-notification nav-item"><a href="#" data-toggle="dropdown" class="nav-link nav-link-label"><i class="ficon ft-mail"></i><span class="tag tag-pill tag-default tag-warning tag-default tag-up">3</span></a>
+                <ul class="dropdown-menu dropdown-menu-media dropdown-menu-right">
+                  <li class="dropdown-menu-header">
+                    <h6 class="dropdown-header m-0"><span class="grey darken-2">Messages</span><span class="notification-tag tag tag-default tag-warning float-xs-right m-0">4 New</span></h6>
+                  </li>
+                  <li class="list-group scrollable-container"><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left"><span class="avatar avatar-sm avatar-online rounded-circle"><img src="../app-assets/images/portrait/small/avatar-s-1.png" alt="avatar"><i></i></span></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Margaret Govan</h6>
+                          <p class="notification-text font-small-3 text-muted">I like your portfolio, let's start the project.</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Today</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left"><span class="avatar avatar-sm avatar-busy rounded-circle"><img src="../app-assets/images/portrait/small/avatar-s-2.png" alt="avatar"><i></i></span></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Bret Lezama</h6>
+                          <p class="notification-text font-small-3 text-muted">I have seen your work, there is</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Tuesday</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left"><span class="avatar avatar-sm avatar-online rounded-circle"><img src="../app-assets/images/portrait/small/avatar-s-3.png" alt="avatar"><i></i></span></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Carie Berra</h6>
+                          <p class="notification-text font-small-3 text-muted">Can we have call in this week ?</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">Friday</time></small>
+                        </div>
+                      </div></a><a href="javascript:void(0)" class="list-group-item">
+                      <div class="media">
+                        <div class="media-left"><span class="avatar avatar-sm avatar-away rounded-circle"><img src="../app-assets/images/portrait/small/avatar-s-6.png" alt="avatar"><i></i></span></div>
+                        <div class="media-body">
+                          <h6 class="media-heading">Eric Alsobrook</h6>
+                          <p class="notification-text font-small-3 text-muted">We have project party this saturday night.</p><small>
+                            <time datetime="2015-06-11T18:29:20+08:00" class="media-meta text-muted">last month</time></small>
+                        </div>
+                      </div></a></li>
+                  <li class="dropdown-menu-footer"><a href="javascript:void(0)" class="dropdown-item text-muted text-xs-center">Read all messages</a></li>
+                </ul>
+              </li> -->
+              <li class="dropdown dropdown-user nav-item">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link dropdown-user-link">
+                  <span class="avatar avatar-online"><img src="../app-assets/images/portrait/small/avatar-s-1.png" alt="avatar"><i></i></span>
+                  <span class="user-name">Juan Carlo Chavez</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                <a href="#" class="dropdown-item"><i class="ft-user"></i> Modificar Perfil</a>
+                  <div class="dropdown-divider"></div><a href="login-admin.jsp" class="dropdown-item"><i class="ft-power"></i> Cerrar Sesi&oacute;n</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+
+    <div data-scroll-to-active="true" class="main-menu menu-fixed menu-dark menu-accordion menu-shadow">
+      <div class="main-menu-content">
+        <ul id="main-menu-navigation" data-menu="menu-navigation" class="navigation navigation-main">
+          <li class=" navigation-header"><span>General</span><i data-toggle="tooltip" data-placement="right" data-original-title="Apps" class=" ft-minus"></i>
+          </li>
+          <li class=" nav-item"><a href="index.html"><i class="ft-home"></i><span data-i18n="" class="menu-title">Inicio</span></a>
+          </li>
+          <li class=" nav-item"><a href="lengua.html"><i class="ft-printer"></i><span data-i18n="" class="menu-title">Lengua</span></a>
+          </li>
+          <li class=" nav-item"><a href="institucion-listado.html"><i class="ft-printer"></i><span data-i18n="" class="menu-title">Instituci&oacute;n</span></a>
+          </li>
+          <li class=" navigation-header"><span>Material</span>
+            <i data-toggle="tooltip" data-placement="right" data-original-title="Apps" class=" ft-minus"></i>
+          </li>
+          <li class=" nav-item"><a href="#"><i class="ft-share"></i><span data-i18n="" class="menu-title">Carga Directa</span></a>
+            <ul class="menu-content">
+              <li><a href="timeline-center.html" class="menu-item">S</a>
+              </li>
+              <li><a href="timeline-horizontal.html" class="menu-item">Alumno</a>
+              </li>
+              <li><a href="timeline-horizontal.html" class="menu-item">Administrativo</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class=" nav-item"><a href="carga-lengua.html"><i class="ft-printer"></i><span data-i18n="" class="menu-title">Carga Lengua</span></a>
+          </li>
+          <li class=" nav-item"><a href="pregunta.html"><i class="ft-printer"></i><span data-i18n="" class="menu-title">Preguntas</span></a>
+          </li>
+
+          <li class=" nav-item"><a href="usuario.html"><i class="ft-user"></i><span data-i18n="" class="menu-title">Usuario</span></a>
+          </li>
+          <li class=" nav-item"><a href="#"><i class="ft-share"></i><span data-i18n="" class="menu-title">Personal</span></a>
+            <ul class="menu-content">
+              <li><a href="timeline-center.html" class="menu-item">Docente</a>
+              </li>
+              <li><a href="timeline-horizontal.html" class="menu-item">Alumno</a>
+              </li>
+              <li><a href="timeline-horizontal.html" class="menu-item">Administrativo</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" nav-item"><a href="#"><i class="ft-share"></i><span data-i18n="" class="menu-title">Seguridad</span></a>
+            <ul class="menu-content">
+              <li><a href="timeline-center.html" class="menu-item">Usuario</a>
+              </li>
+              <li><a href="perfil.html" class="menu-item">Perfil</a>
+              </li>
+              <li><a href="acceso.html" class="menu-item">Accesos</a>
+              </li>
+            </ul>
+          </li>
+          <li class=" nav-item"><a href="#"><i class="ft-share"></i><span data-i18n="" class="menu-title">Configuraci&oacute;n</span></a>
+            <ul class="menu-content">
+              <li><a href="timeline-center.html" class="menu-item">Alertas</a>
+              </li>
+              <li><a href="timeline-horizontal.html" class="menu-item">Correo</a>
+              </li>
+              <li><a href="timeline-horizontal.html" class="menu-item">Mascotas</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="app-content content container-fluid">
+      <div class="content-wrapper">
+        <div class="content-header row">
+          <div class="content-header-left col-md-6 col-xs-12 mb-2">
+            <div class="row breadcrumbs-top">
+              <div class="breadcrumb-wrapper col-xs-12">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Inicio</a>
+                  </li>
+                  <li class="breadcrumb-item active">Usuario Listado
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-body"><!-- Analytics spakline & chartjs  -->
+              <section id="configuration">
+                  <div class="row">
+                    <div class="col-xl-12">
+                      <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Registro Preguntas (Quechua)</h4>
+                            <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                                    <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                                    <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                          <div class="card-block">
+                            <div class="nav-vertical">
+                              <ul class="nav nav-tabs nav-left nav-border-left">
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="baseVerticalLeft1-tab1" data-toggle="tab" aria-controls="tabVerticalLeft11" href="#tabVerticalLeft11" aria-expanded="true">Basico</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="baseVerticalLeft1-tab2" data-toggle="tab" aria-controls="tabVerticalLeft12" href="#tabVerticalLeft12" aria-expanded="false">Intermedio</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="baseVerticalLeft1-tab3" data-toggle="tab" aria-controls="tabVerticalLeft13" href="#tabVerticalLeft13" aria-expanded="false">Avanzado</a>
+                                </li>
+                              </ul>
+                              <div class="tab-content px-1">
+                                <div role="tabpanel" class="tab-pane active" id="tabVerticalLeft11" aria-expanded="true" aria-labelledby="baseVerticalLeft1-tab1">
+                                    <div class="col-xs-9">
+
+
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" id="base-tab1" data-toggle="tab" aria-controls="tab1" href="#tab1" aria-expanded="true"><h4><span class="ico-nivel">B1</span> <small>B&aacute;sico 1</small></h4></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="base-tab2" data-toggle="tab" aria-controls="tab2" href="#tab2" aria-expanded="false"><h4><span class="ico-nivel">B2</span> <small>B&aacute;sico 2</small></h4></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="base-tab3" data-toggle="tab" aria-controls="tab3" href="#tab3" aria-expanded="false">Tab 3</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled">Disabled</a>
+    </li>
+  </ul>
+  <div class="tab-content px-1 pt-1">
+    <div role="tabpanel" class="tab-pane active" id="tab1" aria-expanded="true" aria-labelledby="base-tab1">
+      <p>Oat cake marzipan cake lollipop caramels wafer pie jelly beans. Icing halvah chocolate cake carrot cake. Jelly beans carrot cake marshmallow gingerbread chocolate cake. Gummies cupcake croissant.</p>
+    </div>
+    <div class="tab-pane" id="tab2" aria-labelledby="base-tab2">
+      <p>Sugar plum tootsie roll biscuit caramels. Liquorice brownie pastry cotton candy oat cake fruitcake jelly chupa chups. Pudding caramels pastry powder cake soufflé wafer caramels. Jelly-o pie cupcake.</p>
+    </div>
+    <div class="tab-pane" id="tab3" aria-labelledby="base-tab3">
+      <p>Biscuit ice cream halvah candy canes bear claw ice cream cake chocolate bar donut. Toffee cotton candy liquorice. Oat cake lemon drops gingerbread dessert caramels. Sweet dessert jujubes powder sweet sesame snaps.</p>
+    </div>
+  </div>
+
+
+
+
+
+                                      <h4><span class="ico-nivel">B1</span> <small>B&aacute;sico 1</small></h4>
+                                      <div class="overlay-yellow">
+                                        <div class="row">
+                                          <div class="col-xs-12">
+                                              <h4 class="card-title text-unidad">UNIDAD 01 (Kay taqapiqa llaqtayta riqsisunchik)</h4>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="card">
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <p><b class="success">Lecci&oacute;n 01</b></p>
+                                                          <h4>Kay taqapiqa llaqtayta riqsisunchik</h4>
+                                                          <span>En esta unidad conoceremos mi pueblo</span>
+                                                          <h4 class="mt-1"><small>Actividades</small></h4>
+                                                          <ul class="list-group list-item">
+                                                            <li class="list-group-item">
+                                                              <span class="float-xs-right">
+                                                              <i class="ft-edit font-medium-3" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"></i>
+
+                                                              <i class="ft-trash-2 danger font-medium-3" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Actividad" data-html="true"></i>
+                                                              </span>
+                                                              <p><b>Kay rimasqata allinta uyariykuy</b><br>
+                                                              <i class="">Escucha atentamente este diálogo</i></p>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                              <span class="float-xs-right">
+                                                              <i class="ft-edit font-medium-3" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"></i>
+
+                                                              <i class="ft-trash-2 danger font-medium-3" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Actividad" data-html="true"></i>
+                                                              </span>
+                                                              Dapibus ac facilisis in
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                              <span class="float-xs-right">
+                                                              <i class="ft-edit font-medium-3" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"></i>
+
+                                                              <i class="ft-trash-2 danger font-medium-3" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Actividad" data-html="true"></i>
+                                                              </span>
+                                                              Morbi leo risus
+                                                            </li>
+                                                          </ul>
+                                                      </div>
+                                                      <div class="media-right">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <br>
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <p><b class="success">Lecci&oacute;n 2</b></p>
+                                                          <h5>Nombre la lecci&oacute;n</h5>
+                                                          <span>Traducion leccion</span>
+                                                          <h4 class="mt-1"><small>Actividades</small></h4>
+                                                          <ul class="list-group list-item">
+                                                            <li class="list-group-item">
+                                                              <span class="float-xs-right">
+                                                              <i class="ft-edit font-medium-3" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"></i>
+
+                                                              <i class="ft-trash-2 danger font-medium-3" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Actividad" data-html="true"></i>
+
+                                                              </span>
+                                                              Cras justo odio
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                              <span class="float-xs-right">
+                                                              <i class="ft-edit font-medium-3" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"></i>
+                                                              <i class="ft-trash-2 danger font-medium-3" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Actividad" data-html="true"></i>
+
+                                                              </span>
+                                                              Dapibus ac facilisis in
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                              <span class="float-xs-right">
+                                                              <i class="ft-edit font-medium-3" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"></i>
+
+                                                              <i class="ft-trash-2 danger font-medium-3" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Actividad" data-html="true"></i>
+
+                                                              </span>
+                                                              Morbi leo risus
+                                                            </li>
+                                                          </ul>
+                                                      </div>
+                                                      <div class="media-right">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+
+                                      <div class="overlay-yellow">
+                                        <div class="row">
+                                          <div class="col-xs-12">
+                                              <h4 class="card-title text-unidad">UNIDAD 02 (Kay taqapiqa llaqtayta riqsisunchik)</h4>
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="card-body">
+                                          <div class="card-block cleartfix" style="background: #f7f7f7">
+                                              <div class="media">
+                                                  <div class="media-left">
+                                                      <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                  </div>
+                                                  <div class="media-body">
+                                                      <p><b class="success">Lecci&oacute;n 1</b></p>
+                                                      <h5>Nombre la lecci&oacute;n</h5>
+                                                      <span>Traducion leccion</span>
+                                                      <h4 class="mt-1"><small>Actividades</small></h4>
+                                                      <ul class="list-group list-item">
+                                                        <li class="list-group-item">
+                                                          <span class="float-xs-right">
+                                                          <i class="ft-edit font-medium-3" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"></i>
+
+                                                          <i class="ft-trash-2 danger font-medium-3" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Actividad" data-html="true"></i>
+
+                                                          </span>
+                                                          Cras justo odio
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                          <span class="float-xs-right">
+                                                          <i class="ft-edit font-medium-3" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"></i>
+                                                          <i class="ft-trash-2 danger font-medium-3" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Actividad" data-html="true"></i>
+
+                                                          </span>
+                                                          Dapibus ac facilisis in
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                          <span class="float-xs-right">
+                                                          <i class="ft-edit font-medium-3" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"></i>
+
+                                                          <i class="ft-trash-2 danger font-medium-3" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Actividad" data-html="true"></i>
+
+                                                          </span>
+                                                          Morbi leo risus
+                                                        </li>
+                                                      </ul>
+                                                  </div>
+                                                  <div class="media-right">
+                                                    <div class="form-group" style="display: block;width: 115px">
+                                                        <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                        <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                    </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+
+                                      <div class="card-body">
+                                          <div class="card-block cleartfix" style="background: #f7f7f7">
+                                              <div class="media">
+                                                  <div class="media-left">
+                                                      <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                  </div>
+                                                  <div class="media-body">
+                                                      <p><b class="success">Lecci&oacute;n 1</b></p>
+                                                      <h5>Nombre la lecci&oacute;n</h5>
+                                                      <span>Traducion leccion</span>
+                                                      <h4 class="mt-1"><small>Actividades</small></h4>
+                                                      <ul class="list-group list-item">
+                                                        <li class="list-group-item">
+                                                          <span class="float-xs-right">
+                                                          <i class="ft-edit font-medium-3" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"></i>
+
+                                                          <i class="ft-trash-2 danger font-medium-3" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Actividad" data-html="true"></i>
+
+                                                          </span>
+                                                          Cras justo odio
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                          <span class="float-xs-right">
+                                                          <i class="ft-edit font-medium-3" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"></i>
+                                                          <i class="ft-trash-2 danger font-medium-3" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Actividad" data-html="true"></i>
+
+                                                          </span>
+                                                          Dapibus ac facilisis in
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                          <span class="float-xs-right">
+                                                          <i class="ft-edit font-medium-3" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"></i>
+
+                                                          <i class="ft-trash-2 danger font-medium-3" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Actividad" data-html="true"></i>
+
+                                                          </span>
+                                                          Morbi leo risus
+                                                        </li>
+                                                      </ul>
+                                                  </div>
+                                                  <div class="media-right">
+                                                    <div class="form-group" style="display: block;width: 115px">
+                                                        <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                        <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                    </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <br>
+                                      <h4><span class="ico-nivel">B2</span> <small>B&aacute;sico 2</small></h4>
+                                      <div class="card">
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 01</h4>
+                                                          <span>Tipo de pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <br>
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 02</h4>
+                                                          <span>Tipo pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <h4><span class="ico-nivel">B3</span> <small>B&aacute;sico 3</small></h4>
+                                      <div class="card">
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 01</h4>
+                                                          <span>Tipo de pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <br>
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 02</h4>
+                                                          <span>Tipo pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-xs-3">
+                                      <div class="form-group text-xs-center">
+                                        <a class="btn btn-secondary btn-min-width mb-1" href="lengua-lecciones-listado.html"><i class="ft-arrow-left"></i> Regresar Listado</a>
+                                        <button type="button" class="btn btn-float btn-float-lg btn-outline-success" data-toggle="modal" data-target="#xlarge">
+                                          <i class="ft-plus-circle"></i>
+                                          <span>Agregar Actividad</span>
+                                        </button>
+                                      </div>
+                                    </div>
+
+                                </div>
+                                <div class="tab-pane" id="tabVerticalLeft12" aria-labelledby="baseVerticalLeft1-tab2">
+                                    <div class="col-xs-8">
+                                      <h4>Intermedio 1</h4>
+                                      <div class="card">
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 01</h4>
+                                                          <span>Tipo de pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <br>
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 02</h4>
+                                                          <span>Tipo pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <h4>Intermedio 2</h4>
+                                      <div class="card">
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 01</h4>
+                                                          <span>Tipo de pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <br>
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 02</h4>
+                                                          <span>Tipo pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <h4>Intermedio 3</h4>
+                                      <div class="card">
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 01</h4>
+                                                          <span>Tipo de pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <br>
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 02</h4>
+                                                          <span>Tipo pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                      <div class="form-group text-xs-center">
+                                        <a class="btn btn-secondary btn-min-width mb-1" href="lengua-lecciones-listado.html"><i class="ft-arrow-left"></i> Regresar Listado</a>
+                                        <button type="button" class="btn btn-float btn-float-lg btn-outline-success" data-toggle="modal" data-target="#xlarge">
+                                          <i class="ft-plus-circle"></i>
+                                          <span>Agregar Pregunta</span>
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tabVerticalLeft13" aria-labelledby="baseVerticalLeft1-tab3">
+                                    <div class="col-xs-8">
+                                      <h4>Avanzado 1</h4>
+                                      <div class="card">
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 01</h4>
+                                                          <span>Tipo de pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <br>
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 02</h4>
+                                                          <span>Tipo pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Pregunta" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <h4>Avanzado 2</h4>
+                                      <div class="card">
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 01</h4>
+                                                          <span>Tipo de pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <br>
+                                          <div class="card-body">
+                                              <div class="card-block cleartfix" style="background: #f7f7f7">
+                                                  <div class="media">
+                                                      <div class="media-left media-middle">
+                                                          <i class="icon-speech warning font-large-1 mr-2 ml-2"></i>
+                                                      </div>
+                                                      <div class="media-body">
+                                                          <h4>Lecci&oacute;n 02</h4>
+                                                          <span>Tipo pregunta</span>
+                                                      </div>
+                                                      <div class="media-right media-middle">
+                                                        <div class="form-group" style="display: block;width: 115px">
+                                                            <button type="button" class="btn btn-icon btn-pure secondary" data-toggle="tooltip" data-original-title="<b>Modificar</b> Actividad" data-html="true"><i class="ft-edit"></i></button>
+                                                            <button type="button" class="btn btn-icon btn-pure danger" data-toggle="tooltip" data-original-title="<b>Eliminar</b> Pregunta" data-html="true"><i class="ft-trash-2"></i></button>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                      <div class="form-group text-xs-center">
+                                        <a class="btn btn-secondary btn-min-width mb-1" href="lengua-lecciones-listado.html"><i class="ft-arrow-left"></i> Regresar Listado</a>
+                                        <button type="button" class="btn btn-float btn-float-lg btn-outline-success" data-toggle="modal" data-target="#xlarge">
+                                          <i class="ft-plus-circle"></i>
+                                          <span>Agregar Pregunta</span>
+                                        </button>
+                                      </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+              </section>
+        </div>
+      </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+    <!-- Modal -->
+    <div class="modal fade text-xs-left" id="xlarge" tabindex="-1" role="dialog" aria-labelledby="myModalLabel16" aria-hidden="true" >
+      <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel16">Seleccionar Pregunta</h4>
+        </div>
+        <div class="modal-body" style="background: #F5F7FA">
+          <div class="content-wrapper">
+            <div class="content-body"><!-- Analytics spakline & chartjs  -->
+              <div class="card-block pb-2">
+                  <fieldset class="form-group position-relative mb-0">
+                      <input type="text" class="form-control form-control-lg input-lg" id="iconLeft" placeholder="Buscar Pregunta">
+                      <div class="form-control-position">
+                          <i class="icon-magnifier font-medium-4"></i>
+                      </div>
+                  </fieldset>
+              </div>
+              <div class="card-block pb-2">
+                <div class="row">
+                  <div class="col-xl-3 col-md-3 col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="weather-img position-relative">
+                          <div class="weather-date position-absolute position-bottom-0">
+                            <div class="date-info bg-blue-grey bg-darken-4 white p-1 text-xs-center">
+                              <span class="month block">Nro</span>
+                              <span class="date block">01</span>
+                            </div>
+                          </div>
+                          <img class="card-img-top img-fluid" src="../assets/img/preguntas.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-block">
+                          <div class="row">
+                            <div class="col-xl-12">
+                              <h4>Imágenes, audios, palabras (neologismos)</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                              <div class="form-group">
+                                <button type="button" class="btn btn-outline-primary">Crear</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-3 col-md-3 col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="weather-img position-relative">
+                          <div class="weather-date position-absolute position-bottom-0">
+                            <div class="date-info bg-blue-grey bg-darken-4 white p-1 text-xs-center">
+                              <span class="month block">Nro</span>
+                              <span class="date block">02</span>
+                            </div>
+                          </div>
+                          <img class="card-img-top img-fluid" src="../assets/img/preguntas.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-block">
+                          <div class="row">
+                            <div class="col-xl-12">
+                              <h4>Preguntas de comprensi&oacute;n <small>(Imágenes, audios)</small></h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                              <div class="form-group">
+                                <button type="button" class="btn btn-outline-primary">Crear</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-3 col-md-3 col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="weather-img position-relative">
+                          <div class="weather-date position-absolute position-bottom-0">
+                            <div class="date-info bg-blue-grey bg-darken-4 white p-1 text-xs-center">
+                              <span class="month block">Nro</span>
+                              <span class="date block">03</span>
+                            </div>
+                          </div>
+                          <img class="card-img-top img-fluid" src="../assets/img/preguntas.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-block">
+                          <div class="row">
+                            <div class="col-xl-12">
+                              <h4>Videos o imágenes en secuencia <small>(Preguntas de comprensi&oacute;n)</small></h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur </p>
+                              <div class="form-group">
+                                <button type="button" class="btn btn-outline-primary">Crear</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-3 col-md-3 col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="weather-img position-relative">
+                          <div class="weather-date position-absolute position-bottom-0">
+                            <div class="date-info bg-blue-grey bg-darken-4 white p-1 text-xs-center">
+                              <span class="month block">Nro</span>
+                              <span class="date block">04</span>
+                            </div>
+                          </div>
+                          <img class="card-img-top img-fluid" src="../assets/img/preguntas.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-block">
+                          <div class="row">
+                            <div class="col-xl-12">
+                              <h4>Audios de instrucciones</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptatum quaerat</p>
+                              <div class="form-group">
+                                <button type="button" class="btn btn-outline-primary">Crear</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+
+
+                  <div class="col-xl-3 col-md-3 col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="weather-img position-relative">
+                          <div class="weather-date position-absolute position-bottom-0">
+                            <div class="date-info bg-blue-grey bg-darken-4 white p-1 text-xs-center">
+                              <span class="month block">Nro</span>
+                              <span class="date block">05</span>
+                            </div>
+                          </div>
+                          <img class="card-img-top img-fluid" src="../assets/img/preguntas.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-block">
+                          <div class="row">
+                            <div class="col-xl-12">
+                              <h4>Audios + tiempo para repetici&oacute;n</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
+                              <div class="form-group">
+                                <button type="button" class="btn btn-outline-primary">Crear</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-3 col-md-3 col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="weather-img position-relative">
+                          <div class="weather-date position-absolute position-bottom-0">
+                            <div class="date-info bg-blue-grey bg-darken-4 white p-1 text-xs-center">
+                              <span class="month block">Nro</span>
+                              <span class="date block">06</span>
+                            </div>
+                          </div>
+                          <img class="card-img-top img-fluid" src="../assets/img/preguntas.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-block">
+                          <div class="row">
+                            <div class="col-xl-12">
+                              <h4>Imagen que represente mejor la historia narrada</h4>
+                              <p>Imagen que represente mejor la historia narrada</p>
+                              <div class="form-group">
+                                <button type="button" class="btn btn-outline-primary">Crear</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-3 col-md-3 col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="weather-img position-relative">
+                          <div class="weather-date position-absolute position-bottom-0">
+                            <div class="date-info bg-blue-grey bg-darken-4 white p-1 text-xs-center">
+                              <span class="month block">Nro</span>
+                              <span class="date block">07</span>
+                            </div>
+                          </div>
+                          <img class="card-img-top img-fluid" src="../assets/img/preguntas.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-block">
+                          <div class="row">
+                            <div class="col-xl-12">
+                              <h4>Pares mínimos</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing adipisicing adipisicing adipisicing </p>
+                              <div class="form-group">
+                                <button type="button" class="btn btn-outline-primary">Crear</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-3 col-md-3 col-sm-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="weather-img position-relative">
+                          <div class="weather-date position-absolute position-bottom-0">
+                            <div class="date-info bg-blue-grey bg-darken-4 white p-1 text-xs-center">
+                              <span class="month block">Nro</span>
+                              <span class="date block">08</span>
+                            </div>
+                          </div>
+                          <img class="card-img-top img-fluid" src="../assets/img/preguntas.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card-block">
+                          <div class="row">
+                            <div class="col-xl-12">
+                              <h4>Diferentes textos + imágenes</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptatum quaerat</p>
+                              <div class="form-group">
+                                <button type="button" class="btn btn-outline-primary">Crear</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn grey btn-outline-secondary" data-dismiss="modal">Close</button>
+      </div>
+      </div>
+    </div>
+
+    <footer class="footer footer-static footer-light navbar-border">
+      <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
+      <span class="float-md-left d-xs-block d-md-inline-block">Copyright  &copy; 2017 <a href="https://themeforest.net/user/pixinvent/portfolio?ref=pixinvent" target="_blank" class="text-bold-800 grey darken-2">Natiguo </a>, Todos los derechos reservados. </span><span class="float-md-right d-xs-block d-md-inline-block">Galaxy Business</span></p>
+    </footer>
+    <!-- BEGIN VENDOR JS-->
+    <script src="../app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
+    <!-- BEGIN VENDOR JS-->
+    <!-- BEGIN PAGE VENDOR JS-->
+    <script src="../app-assets/vendors/js/tables/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/tables/datatable/dataTables.bootstrap4.min.js" type="text/javascript"></script>
+    <!-- END PAGE VENDOR JS-->
+    <!-- BEGIN STACK JS-->
+    <script src="../app-assets/js/core/app-menu.js" type="text/javascript"></script>
+    <script src="../app-assets/js/core/app.js" type="text/javascript"></script>
+    <!-- END STACK JS-->
+    <!-- BEGIN PAGE LEVEL JS-->
+    <script src="../app-assets/js/scripts/tables/datatables/datatable-basic.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL JS-->
+    <script src="../app-assets/vendors/js/extensions/sweetalert.min.js" type="text/javascript"></script>
+    <script src="../app-assets/js/scripts/extensions/sweet-alerts.js" type="text/javascript"></script>
+  </body>
+</html>

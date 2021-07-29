@@ -1,0 +1,514 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+  //   /* Custom, iPhone Retina */
+  //   @media only screen and (min-width : 320px) {
+  //       #oterPageHeader .navbar-default{
+  //           background: red;
+  //       }
+  //   }
+
+  //   /* Extra Small Devices, Phones */
+  //   @media only screen and (min-width : 480px) {
+  //       #oterPageHeader .navbar-default{
+  //           background: blue;
+  //       }
+  //   }
+
+  //   /* Small Devices, Tablets */
+  //   @media only screen and (min-width : 768px) {
+  //       #oterPageHeader .navbar-default{
+  //           background: green;
+  //       }
+  //   }
+
+  //   /* Medium Devices, Desktops */
+  //   @media only screen and (min-width : 992px) {
+  //       #oterPageHeader .navbar-default{
+  //           background: orange;
+  //       }
+		// #title-lengua-reforzar{
+		// 	font-size: 36px;
+		// 	line-height: 1.8;
+		// }
+  //       .info-index {
+  //           width: 790px;
+  //           margin: 30px auto;
+  //       }
+  //   }
+
+  //   @media (min-width: 768px) {
+  //       #oterPageHeader .navbar-default{
+  //           background: peru;
+  //       }
+  //     #modal-tienda-app, #modal-premio-app{
+  //       .modal-dialog {
+  //           width: 720px;;
+  //           margin: 30px auto;
+  //         }
+  //     }
+
+  //   }
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    @media screen and (min-width : 1600px) {
+        #title-lengua-reforzar {
+            font-size: 38px;
+            line-height: 1.2;
+        }
+        .page-header-color #oterPageHeader .navbar-default{
+            background:#bc1339;
+        }
+        .info-index {
+            width: 890px;
+            margin: 30px auto;
+        }
+    }
+
+    @media screen and (min-width : 1400px) {
+        .page-header-color #oterPageHeader .navbar-default{
+            background: #000;
+        }
+        .info-index {
+            width: 870px;
+            margin: 30px auto;
+        }
+    }
+
+
+    /* Large Devices, Wide Screens */
+    @media  screen and (max-width : 1200px) {
+        .fondo-lectura{
+
+          #btnNextMaterial, #btnevaluar{
+            width: 60%;
+            margin-top:10px;
+          }
+        }
+        .page-header-color #oterPageHeader .navbar-default{
+            background: violet;
+        }
+      #title-lengua-reforzar {
+          font-size: 38px;
+          line-height: 1.2;
+      }
+    .icon-desing-style a, .icon-desing-style .icon-n-link{
+      width:100%;
+    }
+
+        .name-user{
+            font-size: 12px;
+            position:relative;
+            top:5px;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media  screen and (max-width : 992px) {
+        #lst-resp-img li.item-img-lst-o img{
+          width: 100px;
+          height: 100px;
+        }
+        .rsp-link label{
+          font-size:14px;
+        }
+        #lst-resp li span{
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          justify-items: center;
+          flex-wrap: wrap;
+          align-items: center;
+          min-height: 60px;
+        }
+        #lst-resp li span.rspt{
+          display: flex!important;
+          position: absolute;
+          width: 100%;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: rgba(255, 255, 255, 0.5);
+          font-weight: bold;
+          justify-content: center;
+          justify-items: center;
+          flex-wrap: wrap;
+          align-items: center;
+        }
+
+        #menu-app #box-masct{
+          margin-top: 10px;
+        }
+        #content-app {
+            float: right;
+            width: calc(100% - 220px);
+            transition: .3s all;
+        }
+        #menu-app {
+            width: 220px;
+            float: left;
+            transition: .3s all;
+            display: block;
+        }
+        .page-header-color #oterPageHeader .navbar-default{
+            background:#96f;
+        }
+    		.page-header-color #oterPageHeader .navbar-fixed-top #navbarFixed li a{
+    			padding: 6px 10px;
+    		}
+    		#title-lengua-reforzar{
+    			font-size: 36px;
+    			line-height: 1.8;
+    		}
+
+        #fh5co-work .fh5co-project-item, #lst-lengua .fh5co-project-item{
+          width: 90%;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media  screen and (max-width : 768px) {
+      .fondo-lectura{
+        padding:20px 30px;
+      }
+        .page-header-color #oterPageHeader .navbar-default{
+            background:yellow;
+        }
+
+      #check_mascota{
+        left: 5px;
+      }
+      .icon-desing-style a, .icon-desing-style .icon-n-link{
+        width:85%;
+      }
+      #ico-base-link .col-md-6 a:hover .round_hover, #ico-base-link .col-md-4 a:hover .round_hover, #ico-base-link .col-md-3 a:hover .round_hover{
+        transform: scale(1);
+      }
+      .round_hover {
+          position: relative;
+          background: rgb(70, 68, 77);
+          padding: 5px;
+          font-size: 13px;
+          width: 100%;
+          line-height: 150px;
+          top: 12.5%;
+          height: 80px;
+          border-radius: 4px;
+          opacity:1;
+      }
+    		#title-lengua-reforzar{
+    			font-size: 34px;
+    			line-height: 1.8;
+          margin-bottom: 0;
+    		}
+        .main-content-lst{
+            padding: 6em 0;
+        }
+
+        #menu-app {
+            .bseccion{
+                padding:0;
+            }
+            width: 150px;
+        }
+
+        #content-app{
+            width: calc(100% - 150px);
+            padding-right: 30px;
+        }
+        #menu-select-lengua{
+          .dropdown-menu{
+            position:relative;
+          }
+        }
+    }
+
+    @media  screen and (max-width : 580px) {
+        #content-app{
+            width: 100%;
+            padding-right:10px;
+            padding-left:10px;
+        }
+        #bg_fondo_mv{
+          position: fixed;
+          background:rgba(0,0,0,0.3);
+        }
+       .material-style{
+        display: table;
+        margin:0 auto;
+       }
+        .fondo-lectura{
+          padding:20px 30px;
+          #btnNextMaterial, #btnevaluar{
+            width: 100%;
+            margin-top:10px;
+          }
+        }
+      .icon-desing-style a, .icon-desing-style .icon-n-link{
+        width:100%;
+      }
+        .page-header-color #oterPageHeader .navbar-default{
+            background:green;
+        }
+  		#title-lengua-reforzar{
+  			font-size: 28px;
+  			line-height: 1.8;
+  		}
+      #main-lst-lengua .text-name-lengua span {
+          padding: 8px 8px;
+          font-size: 12px;
+          display: inline-block;
+      }
+        #menu-app{
+            width: 100%;
+            #box-masct{
+              margin: 0;
+            }
+            .bseccion{
+                padding:0;
+                ul{
+                display: table;
+                padding:0 5px;
+                    li{
+                        display: inline-block;
+                        margin-right: 10px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            #box-masct{
+              img, #check_mascota{
+                display: none;
+              }
+            }
+            #show-msg{
+                display: table;
+                width: 100%;
+                color: #000;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 500;
+                border: 2px solid #FFA500;
+                margin: 0;
+                position: fixed;
+                top: 40%;
+                max-width: 100%;
+                right: 0;
+                left: 0;
+                display:none;
+            }
+        }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media  screen and (max-width : 480px) {
+
+        .page-header-color #oterPageHeader .navbar-default{
+            background:blue;
+        }
+        #main-lst-lengua .text-name-lengua span {
+            font-size: 11px;
+        }
+        .fondo-lectura{
+          padding:20px 50px;
+        }
+
+        .name-user{
+            font-size: 13px;
+        }
+		#title-lengua-reforzar{
+			font-size: 22px;
+			line-height: 1.8;
+			color:green;
+		}
+		#premio-ganar-modal{
+			.modal-content {
+			    padding: 30px;
+			    height: 350px;
+			    width: 350px;
+				#cont-premio{
+			    	img{
+			    		width: 50%;
+			    	}
+				}
+			    #text-premio{
+			    	h4{
+			    		font-size: 20px;
+			    		margin-bottom:10px;
+			    	}
+			    	p{
+			    		font-size: 13px;
+			    		margin-bottom: 10px;
+			    	}
+			    }
+				#box-continuar-premio{
+					left: 36%;
+					#link-salir{
+						margin-top:25px;
+					}
+				}
+			}
+
+		}
+    }
+
+
+    //////////////////////
+    @media only screen and (min-width : 1200px) {
+        .page-header-color #oterPageHeader .navbar-default{
+            background:blue;
+        }
+        #main-lst-lengua{
+          padding-left: 0;
+          padding-right: 0;
+        }
+        #content-app{
+          #content-perfil{
+            padding: 30px;
+            #title-perfil{
+              font-size: 28px;
+            }
+          }
+        }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 992px) {
+        .page-header-color #oterPageHeader .navbar-default{
+            background:red;
+        }
+        #content-app{
+          padding-right: 0;
+          padding-left: 0;
+          #banner-perfil{
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            border-radius: 4px;
+            #content-foto, #content-foto-info{
+              padding: 15px;
+              width: 48.5%;
+              display:inline-block;
+              vertical-align: middle;
+            }
+            #list1{
+              margin: 0;
+            }
+          }
+          #content-perfil{
+            width: 100%;
+            padding: 30px 15px;
+            #title-perfil{
+              font-size: 28px;
+            }
+          }
+        }
+        .bg-perfil-content{
+          border-radius: 4px;
+        }
+        #oterPageHeader .navbar-fixed-top #navbarFixed li a{
+          padding: 6px 10px;
+        }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .page-header-color #oterPageHeader .navbar-default{
+            background:yellow;
+        }
+        #content-app #content-perfil #title-perfil{
+          font-size: 26px;
+        }
+
+        .navbar{
+          .navbar-header{
+            min-height: 60px;
+          }
+        }
+
+        #toggle_aria{
+          i{
+            background:#fff;
+            &:after, &:before{
+              background:#fff;
+            }
+          }
+        }
+
+        #navbarFixed{
+          border:0;
+          border-top: 1px solid #fff;
+          ul{
+            .lst-head{
+              display:inline-block;
+            }
+          }
+        }
+
+      #menu-select-lengua{
+        display:inline-block;
+        float:right;
+        .name-user{
+          font-size: 13px;
+          color: white;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          display: inline-block;
+          width:140px;
+          top: 7px;
+          position: relative;
+        }
+      }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 480px) {
+        .page-header-color #oterPageHeader .navbar-default{
+            background:orange;
+        }
+        #content-app #content-perfil #title-perfil{
+          font-size: 24px;
+        }
+        .img-adorno-title{
+          background-image: url("../images/border-title_movil.png");
+          height: 57px;
+        }
+        #lst-lengua .fh5co-project-item{
+          width: 95%;
+        }
+        #content-app{
+          #banner-perfil{
+            #content-foto, #content-foto-info{
+              width: 100%;
+            }
+          }
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 320px) {
+        .page-header-color #oterPageHeader .navbar-default{
+            background:violet;
+        }
+        #title-lengua-reforzar{
+          font-size: 22px;
+        }
+        #lst-lengua .fh5co-project-item{
+          width: 100%;
+        }
+        #main-lst-lengua{
+          .text-name-lengua span{
+            font-size: 13px;
+          }
+          .col-xs-6{
+            width:100%;
+          }
+        }
+
+    }

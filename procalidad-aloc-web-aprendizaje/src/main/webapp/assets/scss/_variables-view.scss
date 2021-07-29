@@ -1,0 +1,169 @@
+
+// $font-title:'Coustard', serif;
+$font-title:'Quicksand', sans-serif;
+// $font-text:'Open Sans', sans-serif; Noto Sans
+// $font-text:'Roboto', sans-serif;
+$font-text:'Quicksand', sans-serif;
+$colorBaseTexto:#222348;
+$colorTextQuienesomos:#FD397B;
+$colorPrimario:#FF4D4C;
+$colorTxt:#1b1b24;
+// colores modal
+$colorPriModal:#002246;
+$navBgDafault:#004B7E;
+$navBgActive:#18C5F4;
+
+// colores icono B M A
+$color_01:#71BFBE;
+$color_02:#3FAF8F;
+$color_03:#009753;
+
+$color_04:#B39BC7;
+$color_05:#8978B1;
+$color_06:#634596;
+
+$color_07:#ED8A65;
+$color_08:#E55538;
+
+body{
+    font-family: $font-text;
+    color:$colorTxt;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bodyClas{
+    position:absolute;
+    width: 100%
+}
+////////////////////////////////////
+
+::-webkit-selection {
+  color: #fff;
+  background: $colorPrimario;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: $colorPrimario;
+}
+
+::selection {
+  color: #fff;
+  background: $colorPrimario;
+}
+
+//colores
+.circle_color_01{
+    background: $color_01;
+}
+.circle_color_02{
+    background: $color_02;
+}
+.circle_color_03{
+    background: $color_03;
+}
+.circle_color_04{
+    background: $color_04;
+}
+.circle_color_05{
+    background: $color_05;
+}
+.circle_color_06{
+    background: $color_06;
+}
+.circle_color_07{
+    background: $color_07;
+}
+.circle_color_08{
+    background: $color_08;
+}
+
+.resetCSS{
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-rendering:optimizeLegibility;
+    font-family: $font-text;
+  }
+
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+}
+/////preeload
+.main-ajax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background:rgba(255, 255, 255, 0.9);
+    z-index: 3;
+    display: none;
+    i{
+        font-size: 16px;
+        position: absolute;
+        color: #ff4d4c;
+    }
+}
+.preloader {
+    width: 120px;
+    height: 120px;
+    border: 3px solid rgba(57, 60, 65, 0.11);
+    border-top: 3px solid #393c41;
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+////////////////////
