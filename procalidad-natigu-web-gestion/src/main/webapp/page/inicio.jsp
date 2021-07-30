@@ -513,13 +513,13 @@
 
 				$(this).children("td").each(function (index2)
 		        {
-		        	if(index2 == 1 ){ // BASICO
+		        	if(index2 == 2 ){ // BASICO
 		        		totalBasico +=  parseInt($(this).text());
 		        	}
-					if(index2 == 2 ){ // INTERMEDIO
+					if(index2 == 3 ){ // INTERMEDIO
 						totalIntermedio +=  parseInt($(this).text());
 					}
-					if(index2 == 3 ){ // AVANZADO
+					if(index2 == 4 ){ // AVANZADO
 						totalAvanzado +=  parseInt($(this).text());
 					}
 		        })
